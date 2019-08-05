@@ -1,0 +1,2065 @@
+2019-07-17 07:47:55 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 07:52:33 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 07:52:56 Error: [MissingControllerException] Controller class ToDoController could not be found.
+Exception Attributes: array (
+  'class' => 'ToDoController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 07:55:34 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 07:56:42 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 07:56:45 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 07:57:01 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 08:04:01 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 08:04:08 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 08:04:43 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 08:04:45 Error: [MissingTableException] Table to_dos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'to_dos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('to_dos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 08:17:11 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 08:17:13 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 08:17:14 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 08:17:47 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 08:17:51 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 08:18:21 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 08:18:23 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-17 08:23:03 Error: [MissingTableException] Table Todos for model ToDo was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'Todos',
+  'class' => 'ToDo',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('Todos')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php(5): Model->find('all')
+#4 [internal function]: ToDoController->view()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ToDoController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ToDoController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-17 09:26:54 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php, line 11]
+2019-07-17 09:26:54 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /hust-HungVT/cakephp/ToDo/edit/1
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 11, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 11, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-17 09:30:08 Error: Fatal Error (1): Call to a member function read() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php, line 12]
+2019-07-17 09:30:08 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /hust-HungVT/cakephp/ToDo/edit/1
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 12, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 12, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-17 09:39:38 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ToDoController.php, line 27]
+2019-07-17 09:39:38 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /hust-HungVT/cakephp/ToDo/delete/4
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 27, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 27, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 03:15:24 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Login/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 03:15:52 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 03:16:36 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 03:22:25 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 03:32:52 Error: [MissingControllerException] Controller class Hust-HungVTController could not be found.
+Exception Attributes: array (
+  'class' => 'Hust-HungVTController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp//hust-HungVT/cakephp/Users/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 03:33:15 Error: [MissingControllerException] Controller class Hust-HungVTController could not be found.
+Exception Attributes: array (
+  'class' => 'Hust-HungVTController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp//hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 03:35:37 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 03:37:05 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 03:37:41 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 03:52:21 Error: [MissingControllerException] Controller class Hust-HungVTController could not be found.
+Exception Attributes: array (
+  'class' => 'Hust-HungVTController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp//hust-HungVT/cakephp/ToDo/view
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 03:52:34 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin(NULL, 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 03:53:19 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 03:53:24 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 04:04:19 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('users')
+#1 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Model/Model.php(3488): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#4 [internal function]: UsersController->login()
+#5 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 04:06:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select username...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select username...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select username...', false)
+#4 [internal function]: DboSource->query('Select username...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select username...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#8 [internal function]: UsersController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-18 04:07:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/User.php(6): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php(12): User->checkLogin('root', 'fbab0c00d2fe7c3...')
+#8 [internal function]: UsersController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-18 04:15:25 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php, line 19]
+2019-07-18 04:15:25 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 19, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 19, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 04:15:43 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php, line 33]
+2019-07-18 04:15:43 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 33, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 33, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 04:18:33 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UsersController.php, line 12]
+2019-07-18 04:18:33 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/Users/login
+Stack Trace:
+#0 /www/htdocs/hust-hungvt/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 12, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 12, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 07:14:02 Error: [MissingControllerException] Controller class ChatController could not be found.
+Exception Attributes: array (
+  'class' => 'ChatController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 07:15:51 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 07:30:50 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 08:24:03 Error: Fatal Error (1): Call to a member function create() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 6]
+2019-07-18 08:24:03 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed/
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 6, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 6, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 08:24:41 Error: [MissingTableException] Table chats for model Chat was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'chats',
+  'class' => 'Chat',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed/
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('chats')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1582): Model->schema()
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php(6): Model->create()
+#4 [internal function]: ChatController->feed()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ChatController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 08:29:31 Error: [MissingTableException] Table chats for model Chat was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'chats',
+  'class' => 'Chat',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed/
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('chats')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1582): Model->schema()
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php(6): Model->create()
+#4 [internal function]: ChatController->feed()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ChatController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 08:29:33 Error: [MissingTableException] Table chats for model Chat was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'chats',
+  'class' => 'Chat',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed/
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('chats')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1582): Model->schema()
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php(6): Model->create()
+#4 [internal function]: ChatController->feed()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ChatController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 09:14:43 Error: [MissingTableException] Table chats for model Chat was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'chats',
+  'class' => 'Chat',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed/
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('chats')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1582): Model->schema()
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php(6): Model->create()
+#4 [internal function]: ChatController->feed()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ChatController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 15:05:03 Error: [MissingControllerException] Controller class Hust-HungVTController could not be found.
+Exception Attributes: array (
+  'class' => 'Hust-HungVTController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp//hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 15:31:34 Error: [MissingTableException] Table chats for model Chat was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'chats',
+  'class' => 'Chat',
+  'ds' => 'default',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('chats')
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1582): Model->schema()
+#3 /www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php(6): Model->create()
+#4 [internal function]: ChatController->feed()
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ChatController), Array)
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#8 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2019-07-18 15:46:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 15:46:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 15:46:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 15:46:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 15:46:56 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 15:46:56 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 15:49:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 15:49:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:05:43 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:05:43 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:06:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:06:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:06:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:06:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:10:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:10:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:10:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:10:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:10:40 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:10:40 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:11:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:11:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:11:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:11:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:11:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:11:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:12:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:12:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:12:37 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:12:37 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:12:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:12:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:12:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:12:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:18:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:18:19 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:23:58 Error: [MissingControllerException] Controller class ChatController could not be found.
+Exception Attributes: array (
+  'class' => 'ChatController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 16:24:20 Error: [MissingControllerException] Controller class ChatController could not be found.
+Exception Attributes: array (
+  'class' => 'ChatController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 16:24:21 Error: [MissingControllerException] Controller class ChatController could not be found.
+Exception Attributes: array (
+  'class' => 'ChatController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 16:24:37 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:24:37 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:25:04 Error: Fatal Error (4): syntax error, unexpected T_VAR in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:25:04 Error: [FatalErrorException] syntax error, unexpected T_VAR
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:27:28 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:27:28 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:27:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:27:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:27:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:27:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:28:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 16:28:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 16:50:12 Error: [MissingControllerException] Controller class ChatController could not be found.
+Exception Attributes: array (
+  'class' => 'ChatController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 17:00:34 Error: [MissingControllerException] Controller class ChatController could not be found.
+Exception Attributes: array (
+  'class' => 'ChatController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-18 17:01:21 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:01:40 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:01:42 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:02:31 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:02:55 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:03:04 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:05:41 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:06:13 Error: [MissingActionException] Action ChatController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-18 17:06:44 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 5]
+2019-07-18 17:06:44 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 17:38:44 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 44]
+2019-07-18 17:38:44 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 44, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 44, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:11:29 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 25]
+2019-07-18 18:11:29 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 25, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 25, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:11:36 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 25]
+2019-07-18 18:11:36 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 25, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 25, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:14:46 Error: Fatal Error (4): syntax error, unexpected '&' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 28]
+2019-07-18 18:14:46 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:14:58 Error: Fatal Error (4): syntax error, unexpected '&' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 28]
+2019-07-18 18:14:58 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:15:00 Error: Fatal Error (4): syntax error, unexpected '&' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 28]
+2019-07-18 18:15:00 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:15:00 Error: Fatal Error (4): syntax error, unexpected '&' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 28]
+2019-07-18 18:15:00 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:15:01 Error: Fatal Error (4): syntax error, unexpected '&' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 28]
+2019-07-18 18:15:01 Error: [FatalErrorException] syntax error, unexpected '&'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:30:54 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 25]
+2019-07-18 18:30:54 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 25, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 25, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-18 18:31:28 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 29]
+2019-07-18 18:31:28 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 29, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 29, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 01:29:55 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 29]
+2019-07-19 01:29:55 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 29, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 29, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 02:17:26 Error: [MissingActionException] Action ChatController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'index',
+)
+Request URL: /hust-HungVT/cakephp/chat/
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 09:52:41 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 53]
+2019-07-19 09:52:41 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 53, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 53, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 09:53:14 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 53]
+2019-07-19 09:53:14 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 53, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 53, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 09:53:48 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 53]
+2019-07-19 09:53:48 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 53, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 53, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 09:54:43 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 57]
+2019-07-19 09:54:43 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 57, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 57, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 09:58:01 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 62]
+2019-07-19 09:58:01 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 62, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 62, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 09:58:36 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 73]
+2019-07-19 09:58:36 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 73, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 73, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 15:42:29 Error: [MissingActionException] Action ChatController::regist() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'regist',
+)
+Request URL: /hust-HungVT/cakephp/chat/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 15:43:41 Error: [MissingActionException] Action ChatController::regist() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'regist',
+)
+Request URL: /hust-HungVT/cakephp/chat/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 15:54:10 Error: Fatal Error (1): Call to a member function create() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 25]
+2019-07-19 15:54:10 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /hust-HungVT/cakephp/chat/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 25, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 25, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 15:55:26 Error: Fatal Error (1): Call to a member function create() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 25]
+2019-07-19 15:55:26 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /hust-HungVT/cakephp/chat/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 25, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 25, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 15:55:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 32]
+2019-07-19 15:55:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/chat/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 32, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 32, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 15:58:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 32]
+2019-07-19 15:58:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/chat/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 32, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 32, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 15:58:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 32]
+2019-07-19 15:58:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /hust-HungVT/cakephp/chat/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 32, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 32, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 15:58:20 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 15:58:58 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 15:59:56 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 15:59:57 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 16:01:24 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 16:01:54 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 16:13:26 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 16:13:45 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 16:13:46 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-19 16:43:02 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 31]
+2019-07-19 16:43:02 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 16:43:57 Error: Fatal Error (4): syntax error, unexpected $end in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 31]
+2019-07-19 16:43:57 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 16:43:58 Error: Fatal Error (4): syntax error, unexpected $end in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 31]
+2019-07-19 16:43:58 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 16:44:07 Error: Fatal Error (4): syntax error, unexpected $end in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 31]
+2019-07-19 16:44:07 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 16:47:10 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 32]
+2019-07-19 16:47:10 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 32, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 32, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 16:47:17 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 32]
+2019-07-19 16:47:17 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 32, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 32, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-19 16:48:20 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(25): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 16:54:34 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(25): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 16:56:05 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(25): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 16:59:10 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(27): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 17:00:11 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(27): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 17:07:00 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(27): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 17:07:20 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(27): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 20:56:47 Error: [MissingActionException] Action UserController::hust-HungTV() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'hust-HungTV',
+)
+Request URL: /hust-HungVT/cakephp/user/hust-HungTV/cakephp/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 20:57:50 Error: [MissingActionException] Action UserController::Chat() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'Chat',
+)
+Request URL: /hust-HungVT/cakephp/user/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 21:00:38 Error: [MissingActionException] Action UserController::Chat() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'Chat',
+)
+Request URL: /hust-HungVT/cakephp/user/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 21:00:44 Error: [MissingActionException] Action UserController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/user/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 21:06:12 Error: [MissingActionException] Action UserController::feed() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'feed',
+)
+Request URL: /hust-HungVT/cakephp/user/feed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 21:07:28 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(27): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 21:07:37 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Chatsytem.users' doesn't exist
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('Select name,pas...', Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('Select name,pas...', Array, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('Select name,pas...', false)
+#4 [internal function]: DboSource->query('Select name,pas...', false)
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3489): call_user_func_array(Array, Array)
+#6 /www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php(7): Model->query('Select name,pas...')
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(27): tUser->checkLogin(NULL, NULL)
+#8 [internal function]: UserController->login()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-19 21:16:12 Error: [MissingActionException] Action ChatController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'logout',
+)
+Request URL: /hust-HungVT/cakephp/Chat/logout
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 21:17:03 Error: [MissingActionException] Action ChatController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'logout',
+)
+Request URL: /hust-HungVT/cakephp/Chat/logout
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-19 21:41:15 Error: [MissingControllerException] Controller class UúController could not be found.
+Exception Attributes: array (
+  'class' => 'UúController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/u%C3%BA
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-20 12:53:44 Error: Fatal Error (1): Call to a member function getNumRows() on a non-object in [/www/htdocs/hust-HungVT/cakephp/app/Model/tUser.php, line 8]
+2019-07-20 12:53:44 Error: [FatalErrorException] Call to a member function getNumRows() on a non-object
+Request URL: /hust-HungVT/cakephp/User/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/www/htdocs/hus...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/www/htdocs/hus...', 8, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/www/htdocs/hus...', 8, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-20 13:05:42 Error: Fatal Error (1): Call to undefined function alert() in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 10]
+2019-07-20 13:05:42 Error: [FatalErrorException] Call to undefined function alert()
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/www/htdocs/hus...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/www/htdocs/hus...', 10, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/www/htdocs/hus...', 10, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-20 13:12:19 Error: [MissingActionException] Action UserController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'login',
+)
+Request URL: /hust-HungVT/cakephp/user/login
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-20 22:28:41 Error: [MissingActionException] Action UserController::login.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'login.ctp',
+)
+Request URL: /hust-HungVT/cakephp/user/login.ctp
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-20 22:29:15 Error: [MissingActionException] Action UserController::login.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'login.ctp',
+)
+Request URL: /hust-HungVT/cakephp/user/login.ctp
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-20 22:29:27 Error: [MissingActionException] Action UserController::login.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'login.ctp',
+)
+Request URL: /hust-HungVT/cakephp/user/login.ctp
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-22 13:22:57 Error: Fatal Error (4): syntax error, unexpected '"' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 28]
+2019-07-22 13:22:57 Error: [FatalErrorException] syntax error, unexpected '"'
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 13:23:00 Error: Fatal Error (4): syntax error, unexpected '"' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 28]
+2019-07-22 13:23:00 Error: [FatalErrorException] syntax error, unexpected '"'
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 13:23:37 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 28]
+2019-07-22 13:23:37 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 13:23:38 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 28]
+2019-07-22 13:23:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 28, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 13:51:54 Error: Fatal Error (4): syntax error, unexpected ')' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 31]
+2019-07-22 13:51:54 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 13:52:23 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 31]
+2019-07-22 13:52:23 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 14:18:39 Error: Fatal Error (4): syntax error, unexpected ';' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 16]
+2019-07-22 14:18:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 16, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 16, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 14:19:12 Error: Fatal Error (4): syntax error, unexpected ';' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 16]
+2019-07-22 14:19:12 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 16, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 16, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-22 14:20:12 Error: [CakeException] Method save does not exist
+Request URL: /hust-HungVT/cakephp/User/regist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(17): CakeRequest->__call('save', Array)
+#1 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(17): CakeRequest->save(Array)
+#2 [internal function]: UserController->regist()
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#4 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#6 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-07-23 09:39:26 Error: [MissingControllerException] Controller class Hust-HungVTController could not be found.
+Exception Attributes: array (
+  'class' => 'Hust-HungVTController',
+  'plugin' => NULL,
+)
+Request URL: /hust-HungVT/cakephp/app/webroot/index.php/hust-HungVT/cakephp/User/login/
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:27:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:27:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:32:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:32:26 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:32:31 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:32:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:32:51 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:35:41 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fonts/poppins/Poppins-Regular.ttf?url=fonts%2Fpoppins%2FPoppins-Regular.ttf
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:36:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/bourbon?url=css%2Fbourbon
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:36:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/bourbon?url=css%2Fbourbon
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:37:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/bourbon?url=css%2Fbourbon
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 11:55:34 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/lib/mysql/mysql.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /cakephp/User/regist?url=User%2Fregist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource('default')
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('t_user')
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(37): Model->find('all')
+#8 [internal function]: UserController->regist()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-23 11:55:49 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/lib/mysql/mysql.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /cakephp/User/regist?url=User%2Fregist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource('default')
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('t_user')
+#5 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#6 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#7 /www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php(37): Model->find('all')
+#8 [internal function]: UserController->regist()
+#9 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#10 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#12 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-07-23 16:37:06 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 40]
+2019-07-23 16:37:06 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakephp/user/login?url=user%2Flogin
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-23 16:37:15 Error: [MissingControllerException] Controller class UController could not be found.
+Exception Attributes: array (
+  'class' => 'UController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/u?url=u
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-07-23 16:37:20 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/www/htdocs/hust-HungVT/cakephp/app/Controller/UserController.php, line 40]
+2019-07-23 16:37:20 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakephp/User/regist?url=User%2Fregist
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-24 13:38:57 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/www/htdocs/hust-HungVT/cakephp/app/View/Chat/feed.ctp, line 5]
+2019-07-24 13:38:57 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /cakephp/Chat/feed?url=Chat%2Ffeed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 5, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 5, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-24 14:10:20 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/www/htdocs/hust-HungVT/cakephp/app/Controller/ChatController.php, line 27]
+2019-07-24 14:10:20 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp/chat/feed?url=chat%2Ffeed
+Stack Trace:
+#0 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 27, Array)
+#2 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 27, Array)
+#3 /www/htdocs/hust-HungVT/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -1,0 +1,135 @@
+.bodyfeed {
+    background: url('https://cdnb.artstation.com/p/assets/images/images/004/344/975/large/c-l-w-n-1.jpg?1482744130') no-repeat center center fixed;
+    background-size: cover;
+}
+.tdfeed {
+    border-radius: 50px;
+    background: url('https://cdnb.artstation.com/p/assets/images/images/004/344/975/large/c-l-w-n-1.jpg?1482744130') no-repeat center center fixed;;
+    background-size: cover;
+    font-family: time new roman;
+    font-size: 20px;
+}  
+input[type=submit] {
+    width: 10%;
+    background-color: green;
+    color: green;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.formfeed {
+    border-radius: 5px;
+    background-color: #bfbfbf;
+    padding: 20px;
+    border: 2px solid blue;
+    background: url('https://cdnb.artstation.com/p/assets/images/images/004/344/975/large/c-l-w-n-1.jpg?1482744130') no-repeat center center fixed;;
+    background-size: cover;
+}
+
+.inputfeed {
+    font-family: time new roman;
+}
+
+.labelfeed {
+    color: white;
+}
+
+input[type=text] select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.bodyregist {
+    background: url('https://wallpaperplay.com/walls/full/4/2/3/121421.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.regist {
+    overflow: hidden;
+    background: url('https://wallpaperaccess.com/full/802645.jpg');
+    background-size:400px 500px;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 400px;
+    height: 400px;
+    transform(translate(-50%, -50%));
+    transition(transform 300ms, box-shadow 300ms);
+    box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+}
+
+.textregist {
+    color: red;
+    font-family: time new roman;
+    font-size: 20px;
+}
+
+.inputregist {
+    font-family: $fontAsap;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    margin: 15px -5px;
+}
+
+#buttonregist {
+    font-family: $fontAsap;
+    color: white;
+    background: green;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+    height: 40px;
+    margin: 0px -5px;
+}
+
+.bodylogin {
+    background: url('https://img4.goodfon.com/wallpaper/nbig/d/72/gory-ozero-zakat-olen-siluet-vektor-otkrytka.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login {
+    overflow: hidden;
+    background: url('https://images8.alphacoders.com/679/thumb-1920-679478.jpg');
+    background-size:400px 500px;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 400px;
+    height: 400px;
+    transform(translate(-50%, -50%));
+    transition(transform 300ms, box-shadow 300ms);
+    box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+}
+
+.bodyedit {
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/35b521ed-fc3a-4658-ab52-01f948f51497/da5ezyi-9200465a-3982-423a-8f29-eb1b0056a49b.jpg/v1/fill/w_1192,h_670,q_70,strp/tomb_raider_anniversary_flat_wallpapers_4k_by_designuchiha_da5ezyi-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzM1YjUyMWVkLWZjM2EtNDY1OC1hYjUyLTAxZjk0OGY1MTQ5N1wvZGE1ZXp5aS05MjAwNDY1YS0zOTgyLTQyM2EtOGYyOS1lYjFiMDA1NmE0OWIuanBnIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.PmtaA6TG0R-UTs7JePDX7qaQtpkXZ5mSeLZYVrw9Gjk') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.edit {
+    overflow: hidden;
+    background: url('https://d2tml28x3t0b85.cloudfront.net/tracks/audio/original_artwork/173ebec0252011e9840f3d7a03488747/18034740252011e9aafc93b3b267e3c1.png');
+    background-size:400px 500px;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 400px;
+    height: 400px;
+    transform(translate(-50%, -50%));
+    transition(transform 300ms, box-shadow 300ms);
+    box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+}

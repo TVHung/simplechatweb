@@ -1,0 +1,145 @@
+<style type="text/css">
+.bodyfeed{
+    background: url('https://cdnb.artstation.com/p/assets/images/images/004/344/975/large/c-l-w-n-1.jpg?1482744130') no-repeat center center fixed;
+    background-size: cover;
+    }
+.tdfeed{
+    border-radius: 50px;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/fcd323a4-962f-4ee5-a513-974c0c835d41/d9qv6t8-6459c516-0536-438d-9568-8018dd0dda80.jpg') no-repeat center center fixed;;
+    background-size: cover;
+    font-family: time new roman;
+    font-size: 20px;
+}  
+
+input[type=submit] {
+    width: 10%;
+    background-color: green;
+    color: green;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.formfeed{
+    border-radius: 5px;
+    background-color: #bfbfbf;
+    padding: 20px;
+    border: 2px solid blue;
+    background: url('https://cdnb.artstation.com/p/assets/images/images/004/344/975/large/c-l-w-n-1.jpg?1482744130') no-repeat center center fixed;;
+    background-size: cover;
+}
+
+.inputfeed{
+    font-family: time new roman;
+}
+
+.labelfeed{
+    color: white;
+}
+
+input[type=text] select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+</style>
+
+<style type="text/css">
+    .bodyregist{
+        background: url('https://wallpaperplay.com/walls/full/4/2/3/121421.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .regist {
+        overflow: hidden;
+        background: url('https://wallpaperaccess.com/full/802645.jpg');
+        background-size:400px 500px;
+        padding: 40px 30px 30px 30px;
+        border-radius: 10px;
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        width: 400px;
+        height: 400px;
+        transform(translate(-50%, -50%));
+        transition(transform 300ms, box-shadow 300ms);
+        box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+    }
+    .textregist{
+        color: red;
+        font-family: time new roman;
+        font-size: 20px;
+    }
+    .inputregist {
+        font-family: $fontAsap;
+        display: block;
+        border-radius: 5px;
+        font-size: 16px;
+        background: white;
+        width: 100%;
+        border: 0;
+        padding: 10px 10px;
+        margin: 15px -5px;
+    }
+    #buttonregist{
+        font-family: $fontAsap;
+        color: white;
+        background: green;
+        display: block;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 30%;
+        height: 40px;
+        margin: 0px -5px;
+    }
+</style>
+
+<style type="text/css">
+    .bodylogin{
+        background: url('https://img4.goodfon.com/wallpaper/nbig/d/72/gory-ozero-zakat-olen-siluet-vektor-otkrytka.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .login {
+        overflow: hidden;
+        background: url('https://images8.alphacoders.com/679/thumb-1920-679478.jpg');
+        background-size:400px 500px;
+        padding: 40px 30px 30px 30px;
+        border-radius: 10px;
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        width: 400px;
+        height: 400px;
+        transform(translate(-50%, -50%));
+        transition(transform 300ms, box-shadow 300ms);
+        box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+    }
+    .textregist{
+        color: blue;
+        font-family: time new roman;
+        font-size: 20px;
+    }
+    .inputregist {
+        font-family: $fontAsap;
+        display: block;
+        border-radius: 5px;
+        font-size: 16px;
+        background: white;
+        width: 100%;
+        border: 0;
+        padding: 10px 10px;
+        margin: 15px -5px;
+    }
+    #buttonregist{
+        font-family: $fontAsap;
+        color: white;
+        background: green;
+        display: block;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 30%;
+        height: 40px;
+        margin: 0px -5px;
+    }
+</style>
